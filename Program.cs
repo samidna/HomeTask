@@ -75,14 +75,23 @@ namespace HomeTask
             //Console.Write("Etmek istediyiniz emeliyyati secin (+,-,*,/) : ");
             //char operation = char.Parse(Console.ReadLine());
 
-            //if (operation == '+') Console.WriteLine(num1 + num2);
-            //else if (operation == '-') Console.WriteLine(num1 - num2);
-            //else if (operation == '*') Console.WriteLine(num1 * num2);
-            //else if (operation == '/') Console.WriteLine(num1 / num2);
-            //else
-            //{ 
-            //    Console.WriteLine("Duzgun emeliyyat daxil edin.");
-            //    goto Start;
+            //switch (operation)
+            //{
+            //    case '+':
+            //        Console.WriteLine(num1+num2);
+            //        break;
+            //    case '-':
+            //        Console.WriteLine(num1 - num2);
+            //        break;
+            //    case '*':
+            //        Console.WriteLine(num1 * num2);
+            //        break;
+            //    case '/':
+            //        Console.WriteLine(num1 / num2);
+            //        break;
+            //    default:
+            //        Console.WriteLine("Yanlish emeliyyat");
+            //        break;
             //}
             #endregion
 
